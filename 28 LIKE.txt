@@ -1,0 +1,5 @@
+select * from robots where name like "%Robot 20__";
+
+
+Лђеп:
+select * from robots where name like "%Robot 20%";
