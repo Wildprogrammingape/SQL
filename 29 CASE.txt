@@ -1,0 +1,7 @@
+select *,
+case when species = 'human' then 'talk'
+when species = 'cat' then 'meow'
+else 'bark'
+end
+as sound
+from friends_of_pickles;
