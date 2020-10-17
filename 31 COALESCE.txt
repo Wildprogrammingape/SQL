@@ -1,0 +1,1 @@
+select name, coalesce(tank, gun, sword) as weapon from fighters;
