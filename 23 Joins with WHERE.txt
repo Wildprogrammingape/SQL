@@ -1,0 +1,8 @@
+select character.name, tv_show.name 
+from character 
+inner join character_tv_show
+on character.id= character_tv_show.character_id
+inner join tv_show
+on character_tv_show.tv_show_id = tv_show.id
+where character.name not in ('Willow Rosenberg')
+and tv_show.name not in  ('How I Met Your Mother');
