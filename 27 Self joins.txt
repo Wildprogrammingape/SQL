@@ -1,0 +1,4 @@
+select e1.name as employee_name, e2.name as boss_name
+from employees as e1
+inner join employees as e2
+on e1.boss_id = e2.id;
