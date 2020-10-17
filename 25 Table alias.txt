@@ -1,0 +1,6 @@
+select c.name, a.name
+from character as c
+left join character_actor as ca
+on c.id = ca.character_id
+left join actor as a
+on ca.actor_id = a.id;
