@@ -1,0 +1,1 @@
+select * from friends_of_pickles where species = 'dog' or height_cm < 45;
