@@ -1,0 +1,1 @@
+select * from family_members where favorite_book is not null;
