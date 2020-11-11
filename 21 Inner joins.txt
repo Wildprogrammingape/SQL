@@ -1,0 +1,4 @@
+select character.name, character_actor.actor_name
+from character
+inner join character_actor
+on character.id = character_actor.character_id;
